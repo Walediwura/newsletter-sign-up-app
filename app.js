@@ -35,7 +35,7 @@ app.post('/', function (req, res){
     const url = 'https://us12.api.mailchimp.com/3.0/lists/2a249dc924';
     const options = {
         method: 'POST',
-        auth: 'Walediwura:a8501da315d13c0e642c2372e4d115e-us12'
+        auth: 'Username: ???Your api token here'
     }
 
 
@@ -55,10 +55,9 @@ app.post('/', function (req, res){
     });
 
 
-    // const apikey = 'ea8501da315d13c0e642c2372e4d115e-us12';
-    // const listId = '2a249dc924'
+    
 
-    // https://github.com/Walediwura/Apiman-weather-app.git
+    // https://github.com/Walediwura/
 
 
     console.log(firstname, lastname, email);
